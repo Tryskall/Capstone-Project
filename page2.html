@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset=""utf-8>
+        <title>page2</title>
+        <link rel="stylesheet" type="text/css" href="home-page.css">
+            <div>
+                <button>business llc.</button>
+                <p>User Name Active</p>
+            </div>
+            <header class="nav-bar">
+                <a href="home-page">HOME</a>
+                <a href="profile-page">Profile</a>
+                <a href="activity-page">Activity</a>
+                <a href="resources-page">Resources</a>
+            </header>
+            <h1>User Name</h1>
+        </head>
+     </head>
+     <body>
+        <h1>Let's Build Forms!</h1>
+        <form action="form-handling-url" method="post">
+        <fieldset>
+            <legend>Add User</legend>
+            <div>
+                <label for="firstname">First Name</label>
+                <input type="text" name="first_name" id="firstname" placeholder="First Name">
+            </div><br>
+            <div>
+                <label for="lastname">Last Name</label>
+                <input type="text" name="last_name" id="lastname" placeholder="Last Name">
+            </div><br>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" name="email_address" id="email" placeholder="Email@mail.com">
+            </div><br>
+            <div>
+                <label for="status">Status</label>
+                <select name="user_role_name" id="status">
+                    <option value="student">Student</option>
+                    <option value="Instructor">Instructor</option>
+                    <option value="guest">Guest</option>
+                </select>
+            </div>
+            <p>"Choose your favorite programmin language:"</p>
+            <div>
+            <input type="radio" id="HTML" name="HTML" value="HTML">
+             <label for="HTML">HTML</label><br>
+            <input type="radio" id="CSS" name="CSS" value="CSS">
+             <label for="CSS">CSS</label><br>
+            <input type="radio" id="JavaScript" name="js" value="js">
+             <label for="JavaScript">JavaScript</label>
+            </div><br>
+            <div>
+              <label for="expiration">Current Date</label>
+              <input type="date" name="expiration" id="expiration">
+            </div><br>
+            <div>
+             <input type="checkbox" id="sign-up" name="sign-up">
+             <label for="sign-up">Sign up for Newsletter</label>
+            </div><br>
+            <div>
+                <label for="bio">Comments</label>
+                <textarea name="Bio" id="bio" placeholder="I can yelp like a mofo!"></textarea>
+            </div><br>
+            <div>
+                <input type="checkbox" id="Agree" name="agree">
+                <label for="agree">Agree to terms and conditions</label>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div><br>
+
+        </fieldset></form>
+     </body>
+     <footer>
+        <a href="">Contact Us</a>
+        <a href="">About Us</a>
+        <a href="">Terms of Use</a>
+        <a href="">FAQ's</a>
+        <a href="">Privacy Polict</a>
+    </footer>
+</html>

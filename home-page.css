@@ -2,3 +2,22 @@ html {
     background-color: black;
     color: white;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
+.top-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
