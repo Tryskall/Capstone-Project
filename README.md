@@ -2,7 +2,7 @@
  HTML and CSS Capstone Project
 
 Building Your First Website
- 6 users recently completed this Project
+
 Congratulations! You've learned enough HTML and CSS to build your very first website. Although most modern projects use the dense and complicated frameworks and technologies that you'll learn in the program, it's still valuable practice to try doing it the traditional way.
 
 By completing this exercise, you'll practice everything you've learned so far. You'll also end up with something cool that you can put on the internet and show to your friends and family - by sending them a link!
